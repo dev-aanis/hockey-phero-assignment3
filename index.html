@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hockey's Lover</title>
+    <!--Font Awesome Link-->
+    <script src="https://kit.fontawesome.com/756ef45bd6.js" crossorigin="anonymous"></script>
+    <!--Font Awesome Link-->
+
     <!--Tailwind & DaisyUI-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -132,25 +136,25 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 
           <div class="text-center items-start">
-            <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
+            <div class="radial-progress text-[#FF4240] rotate-[130deg]" style="--value:87;" role="progressbar"><span class="rotate-[-130deg]">87%</span></div>
             <h6 class="text-xl font-semibold mt-8 mb-4">Prayer Facility</h6>
             <p>We provide a world class Facility for our player because they can fit always.</p>
           </div>
 
           <div class="text-center items-start">
-            <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+            <div class="radial-progress text-[#49D293] rotate-[100deg]" style="--value:95;" role="progressbar"><span class="rotate-[-100deg]">95%</span></div>
             <h6 class="text-xl font-semibold mt-8 mb-4">Experienced Coach</h6>
             <p>We have Experienced Coach for our player because they can learn always.</p>
           </div>
 
           <div class="text-center items-start">
-            <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
+            <div class="radial-progress text-[#FFB546] rotate-[145deg]" style="--value:90;" role="progressbar"><span class="rotate-[-145deg]">90%</span></div>
             <h6 class="text-xl font-semibold mt-8 mb-4">Senior Player</h6>
             <p>Our senior player always guide our junior player for better performance in the field</p>
           </div>
 
           <div class="text-center items-start">
-            <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
+            <div class="radial-progress text-[#4C8DF1] rotate-[145deg]" style="--value:80;" role="progressbar"><span class="rotate-[-145deg]">80%</span></div>
             <h6 class="text-xl font-semibold mt-8 mb-4">Training Ground</h6>
             <p>We provide a world class Training for our player because they can keep fit always.</p>
           </div>
@@ -509,6 +513,93 @@
           <!--FAQ Section-->
       </section>
       <!--Client Question section end-->
+
+      <!--Get in Touch section start-->
+      <section class="container mx-auto md:px-24 px-4 md:my-8 my-4">
+          <!--Text Section-->
+            <div class="text-center">
+              <hr class="border-dashed mb-4 lg:mb-8 lg:mt-24">
+              <h1 class="text-xl lg:text-4xl font-extrabold mb-4 lg:mb-6">Get In Touch</h1>
+              <p class="w-full lg:w-[600px] text-sm lg:text-base text-[#13131899] mx-auto">All of our happy clients wants to know about all of our product. We keep here a frequently asked question section so that our clients understand.</p>
+              <hr class="border-dashed mt-4 lg:mt-8 mb-4 lg:mb-12">
+            </div>
+           <!--Text Section-->
+
+           <!--Contact Section-->
+           <div class="flex flex-col lg:flex-row">
+            <!--Left Part-->
+            <div class="lg:w-[370px] lg:h-[700px] border-2 border-gray-300 rounded-2xl lg:p-8 p-4 lg:mr-6 lg:mb-0 mb-4">
+              <div class="lg:w-[300px] lg:h-[200px] rounded-2xl mb-6 bg-[#bbed6d1a] p-4">
+                <img class="mt-4" src="./Images/call-green.png" alt="">
+                <p class="text-base text-[#13131866] font-normal mt-6">Phone Number: <br>
+                  <span class="mt-6 text-lg text-[#131318;] font-extrabold">(+62) 123-321-543</span>
+                </p>
+              </div>
+
+              <div class="lg:w-[300px] lg:h-[200px] rounded-2xl mb-6 bg-[#fddd5f1a] p-4">
+                <img class="mt-4" src="./Images/message.png" alt="">
+                <p class="text-base text-[#13131866] font-normal mt-6">Email: <br>
+                  <span class="mt-6 text-lg text-[#131318;] font-extrabold">hockeys@support.com</span>
+                </p>
+              </div>
+
+              <div class="lg:w-[300px] lg:h-[172px] rounded-2xl mb-6 bg-[#629cf31a] p-4">
+                <img src="./Images/location.png" alt="">
+                <p class="text-base text-[#13131866] font-normal mt-6">Location: <br>
+                  <span class="mt-6 text-lg text-[#131318;] font-extrabold">152/1 Mohakhali Wireless Gate</span>
+                </p>
+              </div>
+            </div>
+            <!--Left Part-->
+
+            <!--Right Part-->
+            <div class="lg:ml-8">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <div>
+                  <label class="text-xl text-[#131318] font-bold" for="Name">Your Name</label><br>
+                  <input class="lg:w-[324px] w-full px-5 py-5 bg-[#13131808] rounded-xl text-[#1313184d] text-base font-normal pl-5" type="text" placeholder="Enter your full name">
+                </div>
+  
+                <div>
+                  <label class="text-xl text-[#131318] font-bold" for="Name">Your Email</label><br>
+                  <input class="lg:w-[324px] w-full px-5 py-5 bg-[#13131808] rounded-xl text-[#1313184d] text-base font-normal pl-5" type="text" placeholder="Enter your email">
+                </div>
+  
+                <div>
+                  <label class="text-xl text-[#131318] font-bold" for="Name">Subject</label><br>
+                  <input class="lg:w-[324px] w-full px-5 py-5 bg-[#13131808] rounded-xl text-[#1313184d] text-base font-normal pl-5" type="text" placeholder="Enter your subject">
+                </div>
+  
+                <div>
+                  <label class="text-xl text-[#131318] font-bold" for="Name">Phone Number</label><br>
+                  <input class="lg:w-[324px] w-full px-5 py-5 bg-[#13131808] rounded-xl text-[#1313184d] text-base font-normal pl-5 mb-4" type="text" placeholder="Enter your phone number">
+                </div>
+              </div>
+              <div>
+              <label class="text-xl text-[#131318] font-bold" for="message">Message</label> <br>
+              <textarea class="lg:w-[660px] w-full lg:h-[370px] h-[200px] bg-[#13131808] rounded-xl text-[#1313184d] text-base font-normal p-5" name="" id="" cols="" rows="" placeholder="Write your message"></textarea>
+              <button class="text-white bg-common-bg lg:w-[660px] w-full px-6 py-4 rounded-xl text-xl font-bold mt-4">Send Message</button>
+              </div>
+            </div>
+            <!--Right Part-->
+           </div>
+           <!--Contact Section-->
+
+           <!--Social media part-->
+            <div class="w-full h-[150px] bg-[#13131808] lg:my-12 my-5 rounded-xl flex flex-col justify-center items-center">
+              <div>
+                <h2 class="text-2xl text-[#131318] font-extrabold">Social Media</h2>
+              </div>
+              <div class="mt-6">
+                <i class="fa-brands fa-twitter mr-5"></i>
+                <i class="fa-brands fa-facebook-f mr-5"></i>
+                <i class="fa-brands fa-instagram mr-5"></i>
+                <i class="fa-brands fa-github"></i>
+              </div>
+            </div>
+           <!--Social media part-->
+      </section>
+      <!--Get in Touch section end-->
     </main>
     <footer></footer>
   </body>
